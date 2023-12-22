@@ -1,0 +1,67 @@
+.hero_cards {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 114px;
+  gap: 32px;
+}
+.hero_card h1 {
+  max-width: 518px;
+  padding-top: 145px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 150% */
+  padding-bottom: 18px;
+}
+.hero_card p {
+  max-width: 458px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  padding-bottom: 45px;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.hero-btn {
+  color: #02897a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 15px 41px;
+  transition: 0.4s;
+}
+.hero-btn:hover {
+  border-radius: 4px;
+  background: #02897a;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-btn:hover #play {
+  fill: #fff;
+}
+.hero_card img {
+  width: 100%;
+  padding-top: 25px;
+}
+#play {
+  fill: #02897a;
+}

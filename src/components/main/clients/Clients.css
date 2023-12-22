@@ -1,0 +1,80 @@
+.customer {
+  padding-bottom: 157px;
+}
+.customer-content h6 {
+  text-align: center;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px; /* 167.647% */
+  letter-spacing: 0.2px;
+  padding-bottom: 8px;
+}
+
+.customer-content p {
+  max-width: 537px;
+  margin: auto;
+  color: #22343d;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.2px;
+  padding-bottom: 50px;
+}
+
+.customer_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+.customer_card {
+  max-width: 327px;
+  padding: 28px 26px 24px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+}
+.customer_text {
+  color: var(--second-text-color, #737373);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.2px;
+  padding: 16px 0 17px;
+}
+.custo_card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.custo_text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.custo_text h6 {
+  color: #02897a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.2px;
+}
+.custo_text b {
+  color: var(--text-color, #252b42);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}

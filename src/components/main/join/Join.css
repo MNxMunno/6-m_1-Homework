@@ -1,0 +1,52 @@
+.business {
+  padding-bottom: 150px;
+}
+.business-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.business_cards {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 32px;
+  background: #02897a;
+}
+.business_card {
+  max-width: 550px;
+}
+.business_card h6 {
+  max-width: 510px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.4%; /* 48.448px */
+  padding: 49px 0 0 51px;
+}
+.business_btns {
+  padding: 68px 0 36px 51px;
+}
+.business_btn {
+  border-radius: 8px;
+  background: #fff;
+  color: #02897a;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 13px 35px;
+  transition: 0.5s;
+}
+.business_btn:hover {
+  background-color: #065d53;
+  color: #fff;
+}
+.business_card img {
+  width: 100%;
+  padding-top: 14px;
+}

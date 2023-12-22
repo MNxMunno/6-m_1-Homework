@@ -1,0 +1,62 @@
+.product {
+  background-image: url(Bg_moon.png);
+  background-size: 100% 79vh;
+  padding-bottom: 169px;
+}
+.product-content h2 {
+  max-width: 500px;
+  color: #22343d;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: auto;
+  padding-bottom: 57px;
+}
+.product_cards {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 45px;
+  padding-bottom: 60px;
+}
+.product_card img {
+  background-color: transparent;
+}
+.product_card h3 {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 30px 0 13px;
+}
+.product_card p {
+  max-width: 240px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.product_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-btn {
+  border-radius: 4px;
+  background: #02897a;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 15px 32px;
+}

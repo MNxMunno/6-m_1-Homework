@@ -1,0 +1,147 @@
+.pricing {
+  padding-bottom: 150px;
+}
+
+h6 {
+  text-align: center;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.title_price {
+  text-align: center;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 8px;
+  padding-bottom: 50px;
+}
+.pricing_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 71px;
+}
+.pricing_card {
+  max-width: 322px;
+  border-radius: 8px;
+  /* background: #fff; */
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  padding: 24px 0 32px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.price_title {
+  text-align: center;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 250% */
+  padding: 0px 75px 0 73px;
+}
+
+.price__ {
+  max-width: 200px;
+  height: 100px;
+  color: #02897a;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 131.579% */
+  letter-spacing: 0.2px;
+  position: relative;
+}
+sup {
+  color: #02897a;
+  position: absolute;
+  top: 30px;
+  right: 38px;
+  /* Title */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+  letter-spacing: 0.1px;
+}
+sub {
+  position: absolute;
+  bottom: 20px;
+  right: -35px;
+  color: var(--second-text, #afafaf);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; /* 118.75% */
+  letter-spacing: 0.1px;
+}
+.price_text + .price_text {
+  padding-top: 16px;
+}
+
+.price_text {
+  color: #22343d;
+  text-align: center;
+  /* Link */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.2px;
+}
+.price_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 38px;
+}
+.price_btn {
+  border-radius: 8px;
+  background: #02897a;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 11px 19px;
+}
+.pricing_card:hover {
+  border-radius: 8px;
+  background: #02897a;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.pricing_card:hover h6 {
+  color: #fff;
+}
+.pricing_card:hover .price_title {
+  color: #fff;
+}
+.pricing_card:hover .price__ {
+  color: #fff;
+}
+.pricing_card:hover sup {
+  color: #fff;
+}
+.pricing_card:hover .price_text {
+  color: #fff;
+}
+.pricing_card:hover .price_btn {
+  border-radius: 8px;
+  background: #fff;
+  color: #02897a;
+}
