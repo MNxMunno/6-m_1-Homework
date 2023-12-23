@@ -21,7 +21,7 @@ function Header() {
             <a className="nav-item" href="#pricing">
               Pricing
             </a>
-            <a className="nav-item" href="#resources">
+            <a className="nav-item" href="#">
               Resources
             </a>
             <a className="nav-item" href="#">
